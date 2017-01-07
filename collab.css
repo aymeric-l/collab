@@ -1,0 +1,263 @@
+@media screen and (max-width:1920px){
+#tout{
+	display: flex;
+	flex-direction: column;
+	background-color: #E9EDFE;
+}
+body{
+	background-color: #E9EDFE;
+}
+#logo{
+	margin-top: -10px;
+}
+.un{
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+	background-color: #E9EDFE;
+}
+.deux{
+	display: flex;
+	flex-direction: row;
+}
+.deuxParDeux{
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	justify-content: center;
+}
+.deuxUn{
+	background-color: darkblue;
+	width: 50%;
+	height: 350px;
+	border-style: solid;
+	border-width: 1px;
+}
+h1{
+	text-align: center;
+	font-size: 2.625em;
+	line-height: 1.1;
+    font-weight: 300;
+    font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+}
+.gauche{
+	font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+	line-height: 1.5;
+	font-size: 1em;
+}
+
+.droite{
+	position: absolute;
+	padding-left: 65%;
+}
+.trois{	
+	background-color: #E9EDFE;
+	font-size: 22px;
+	text-align: center;
+}
+.quatre{
+	background-color: #E9EDFE;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 100%;
+}
+.cloud{
+	text-align: center;
+	padding-top: 40px;
+}
+.textCenter{
+	text-align: center;
+	margin-left: 18%;
+	margin-right: 18%;
+	font-size: 30px;
+}
+#plein{
+	max-width: 100%;
+}
+.center{
+	text-align: center;
+}
+.huhu{
+	background-color: white;
+}
+
+.cinq{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: white;
+}
+.cinqDeux{
+	border-left:solid 1px grey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.cinqUn{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#test{
+	margin-left: 40px;
+}
+.six{
+	background-color: #E9EDFE;
+	margin-top: 5%;
+}
+#image{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+.sept {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.taptap{
+	background-color: #E9EDFE;
+	width:450px;
+	height:auto;
+	margin-left:30%;
+	padding: 30px 30px 30px 30px;
+	border:solid 1px black;
+	border-radius: 4px;
+}
+.tap{
+	background-color: white;
+	border: solid 1px black;
+	border-radius: 4px;
+	padding: 5px;
+}
+.menuTest{
+	visibility: hidden;
+}
+.bouton{
+	border:solid 1px black;
+	padding:6px 10px 6px 10px;
+	border-radius: 0px 5px 5px 0px;
+}
+.autreBouton{
+	border:solid 1px black;
+	padding:6px 10px 6px 10px;
+	margin-right: -5px;
+	background-color: #3093F7;
+	color:white;
+	border-radius: 5px 0px 0px 5px;
+}
+.bibi{
+	border:solid 1px black;
+	padding:6px 10px 6px 10px;
+	margin-right: -5px;
+	background-color: #3093F7;
+	color:white;
+	border-radius: 5px 0px 0px 5px;
+	margin-top: 40px;
+	text-align: center;
+}
+.bibiDeux{
+	background-color: #3093F7;
+	color:white;
+	text-align: center;
+	border:none;
+	box-shadow: none;
+	text-decoration: none;
+	cursor: pointer;
+}
+.centre{
+	text-align: center;
+}
+.sept{
+	display: flex;
+	flex-direction: column;
+
+}
+.septUn{
+	display: flex;
+	flex-direction: row;
+	width: 1276px;
+	height: 450px;
+	background-color: #3F4655;
+	margin-top: 125px;
+	color:white;
+	justify-content: center;
+	padding-top: 25px;
+}
+.septDeux{
+	background-color: #3F4655;
+	justify-content: center;
+	padding-left: 40%;
+	padding-right: 30%;
+	margin-top: -170px;
+}
+.espace{
+	padding-left: 6px;
+	padding-right: 6px;
+	color:grey;
+}
+ul{
+	list-style: none;
+}
+li{
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+.gris{
+	color:grey;
+}
+.grise{
+	color:grey;
+	justify-content: center;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+}
+
+@media screen and (max-width:960px){
+	.deux{
+		display: flex;
+		flex-direction: column;
+	}
+	.deuxParDeux{
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	.deuxUn{
+		width: 50%;
+		background-color: red;
+	}
+	.un{
+		visibility: hidden;
+	}
+	.menuTest{
+		visibility: visible;
+	}
+}
+@media screen and (max-width:510px){
+	.deux{
+		display: flex;
+		flex-direction: column;
+	}
+	.deuxParDeux{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	.deuxUn{
+	background-color: yellow;
+	width:100%;
+}
+	.un{
+		visibility: hidden;
+	}
+	.cinq{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+}
