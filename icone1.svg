@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948 emi)  -->
+<?xml-stylesheet type="text/css" href="../style/styleSVG1.css" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="153.886px" height="131.844px" viewBox="0 0 149.886 135.844" enable-background="new 0 0 149.886 131.844"
+	 xml:space="preserve" class="svg1">
+<!--Liste-->
+<path fill="#AAB0BB" stroke="#000000" d="M89.886,76.469l15.625-0.125v18.875c0,0,0.125,3.75-2.375,4.5
+	c-3.3,0.99-13.75-0.875-13.75-0.875L89.886,76.469z"/>
+<path fill="#FFFFFF" stroke="#000000" d="M40.427,28.011l54.125,0.042l0.208,66.292c0,0-1.166,5.334,5.334,5.75
+	c0.116,0.008-50.63,0.71-56.834-0.75c-2.125-0.5-2.875-4-2.875-4L40.427,28.011z"/>
+<!--Encoches deco-->
+<polyline fill="none" stroke="#000000" points="0.386,79.094 2.136,81.219 7.136,76.344 "/>
+<polyline fill="none" stroke="#000000" points="52.886,4.094 56.136,7.594 63.011,0.344 "/>
+<polyline fill="none" stroke="#000000" points="113.136,23.719 116.261,27.219 123.261,19.719 "/>
+<polyline fill="none" stroke="#000000" points="110.011,61.469 112.511,64.469 117.136,59.344 "/>
+<polyline fill="none" stroke="#000000" points="140.136,93.344 142.386,96.594 147.511,90.969 "/>
+<polyline fill="none" stroke="#000000" points="46.886,116.969 49.261,119.344 54.261,113.969 "/>
+<!--Cercle deco-->
+<circle class="cercle" fill="none" stroke="#000000" cx="91.761" cy="125.719" r="5.625"/>
+<circle class="cercle" fill="none" stroke="#000000" cx="143.761" cy="53.594" r="5.625"/>
+<circle class="cercle" fill="none" stroke="#000000" cx="20.636" cy="41.594" r="5.625"/>
+<!--Lignes de la liste-->
+<line fill="none" stroke="#A2A5AB" stroke-width="2" x1="63.511" y1="44.386" x2="83.511" y2="44.386"/>
+<line fill="none" stroke="#A2A5AB" stroke-width="2" x1="63.511" y1="57.344" x2="83.511" y2="57.344"/>
+<line fill="none" stroke="#A2A5AB" stroke-width="2" x1="63.552" y1="70.386" x2="83.552" y2="70.386"/>
+<line fill="none" stroke="#A2A5AB" stroke-width="2" x1="63.552" y1="83.386" x2="83.552" y2="83.386"/>
+<!--Cercle de la liste-->
+<circle id="rond2" fill="#ECEEF2" stroke="#000000" cx="53.906" cy="83.406" r="3.271"/>
+<circle id="rond1" fill="#ECEEF2" stroke="#000000" cx="53.823" cy="70.364" r="3.271"/>
+<!--Encoches-->
+<polyline fill="none" stroke="#13C97A" points="49.677,57.219 51.844,59.261 56.844,54.552 "/>
+<polyline fill="none" stroke="#13C97A" points="49.719,43.969 51.886,46.011 56.886,41.302 "/>
+<!--Encoches déco cachées-->
+<polyline class="encocheCercle" fill="none" stroke="#000000" points="89,123 91.761,125.719 100,119 "/>
+<polyline class="encocheCercle" fill="none" stroke="#000000" points="141,51 143.761,53.594 152,47 "/>
+<polyline class="encocheCercle" fill="none" stroke="#000000" points="18,39 20.636,41.594 29,35 "/>
+<!--Encoches vertes cachées-->
+<polyline id="encocheVerte1" fill="none" stroke="#13C97A" points="49.719,67 51.886,70.364 56.886,65 "/>
+<polyline id="encocheVerte2" fill="none" stroke="#13C97A" points="49.677,81 51.844,84.406 56.844,79 "/>
+</svg>

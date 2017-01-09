@@ -1,20 +1,37 @@
+body{
+	padding : 0px;
+	margin : 0px;
+	overflow-x: hidden;
+}
 @media screen and (max-width:1920px){
 #tout{
 	display: flex;
 	flex-direction: column;
 	background-color: #E9EDFE;
 }
-body{
+html{
 	background-color: #E9EDFE;
 }
+h3{
+	font-size:1.25em;
+	font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+}
+#decalage{
+	padding-top: 50px;
+}
 #logo{
-	margin-top: -10px;
+	margin-top: 0px;
+	position: fixed;
+	z-index: 3;
+	padding-left:10px;
 }
 .un{
 	display: flex;
 	flex-direction: row;
-	padding-top: 20px;
+	padding-top: 10px;
 	background-color: #E9EDFE;
+	margin-top: -10px;
+	margin-left: -8px;
 }
 .deux{
 	display: flex;
@@ -25,13 +42,39 @@ body{
 	flex-direction: row;
 	width: 50%;
 	justify-content: center;
+	text-align: center;
+}
+.deuxParDeux h3{
+	color:white;
+}
+.deuxParDeux p{
+	color:#B2B5BB;
+	font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
 }
 .deuxUn{
-	background-color: darkblue;
+	background-color: #3B414F;
 	width: 50%;
 	height: 350px;
-	border-style: solid;
-	border-width: 1px;
+	border-right: 1px solid;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+.iconeUn{
+	margin-top: 4em;
+}
+.iconeDeux{
+	margin-top: 5em;
+}
+.iconeTrois{
+	margin-top: 2.7em;
+}
+.iconeQuatre{
+	margin-top: 2.2em;
+	margin-right: 0.5em;
+}
+#active{
+	font-size: 1.3125em;
+	font-family: freight-text-pro,Georgia,sans-serif;
 }
 h1{
 	text-align: center;
@@ -40,15 +83,28 @@ h1{
     font-weight: 300;
     font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
 }
+h3{
+	text-align: center;
+}
 .gauche{
 	font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
 	line-height: 1.5;
 	font-size: 1em;
+	position: fixed;
+	z-index: 3;
+	padding-left: 200px;
+	padding-top: 8px;
 }
 
 .droite{
-	position: absolute;
-	padding-left: 65%;
+		position: absolute;
+		padding-left: 65%;
+		position: fixed;
+		background-color: #E9EDFE;
+		padding-top: 20px;
+		padding-bottom: 20px; 
+		z-index: 2;
+		margin-top: -10px;
 }
 .trois{	
 	background-color: #E9EDFE;
@@ -61,6 +117,7 @@ h1{
 	justify-content: center;
 	align-items: center;
 	max-width: 100%;
+	margin-top: 3em;
 }
 .cloud{
 	text-align: center;
@@ -70,7 +127,9 @@ h1{
 	text-align: center;
 	margin-left: 18%;
 	margin-right: 18%;
-	font-size: 30px;
+	font-size: 1.5em;
+	font-family: freight-text-pro,Georgia,sans-serif;
+	line-height: 1.5;
 }
 #plein{
 	max-width: 100%;
@@ -80,6 +139,8 @@ h1{
 }
 .huhu{
 	background-color: white;
+	margin-left: -10px;
+	margin-right: -10px;
 }
 
 .cinq{
@@ -87,6 +148,8 @@ h1{
 	flex-direction: row;
 	justify-content: center;
 	background-color: white;
+	margin-bottom: 5em;
+	margin-right: 4em;
 }
 .cinqDeux{
 	border-left:solid 1px grey;
@@ -94,10 +157,16 @@ h1{
 	flex-direction: column;
 	align-items: center;
 }
+.blabla{
+	text-align: center;
+	justify-content: center;
+	margin-left: 5em;
+}
 .cinqUn{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-right: 5%;
 }
 #test{
 	margin-left: 40px;
@@ -131,14 +200,19 @@ h1{
 	border: solid 1px black;
 	border-radius: 4px;
 	padding: 5px;
+	width: 98%;
 }
 .menuTest{
+	position: absolute;
+	padding-left: 92%;
+	padding-top: 0px;
 	visibility: hidden;
 }
 .bouton{
 	border:solid 1px black;
 	padding:6px 10px 6px 10px;
 	border-radius: 0px 5px 5px 0px;
+	margin-right: 80px;
 }
 .autreBouton{
 	border:solid 1px black;
@@ -147,6 +221,28 @@ h1{
 	background-color: #3093F7;
 	color:white;
 	border-radius: 5px 0px 0px 5px;
+}
+.autreBoutonDeux{
+	border:solid 1px black;
+	padding:6px 10px 6px 10px;
+	text-align: center;
+	justify-content: center;
+	background-color: #3093F7;
+	color:white;
+	border-radius: 5px 5px 5px 5px;
+	width: 250px;
+	margin-left: 38%;
+}
+.autreBoutonTrois{
+	border:solid 1px black;
+	padding:6px 10px 6px 10px;
+	text-align: center;
+	justify-content: center;
+	background-color: #3093F7;
+	color:white;
+	border-radius: 5px 5px 5px 5px;
+	width: 130px;
+	margin-left: 2em;
 }
 .bibi{
 	border:solid 1px black;
@@ -178,13 +274,14 @@ h1{
 .septUn{
 	display: flex;
 	flex-direction: row;
-	width: 1276px;
+	/*width: 1276px;*/
 	height: 450px;
 	background-color: #3F4655;
 	margin-top: 125px;
 	color:white;
-	justify-content: center;
 	padding-top: 25px;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 .septDeux{
 	background-color: #3F4655;
@@ -216,12 +313,21 @@ li{
 	margin-bottom: 0px;
 }
 }
+@media screen and (max-width:1130px){
+	.droite{
+		padding-left: 60%;
+	}
+	.taptap{
+		margin-left: 23%;
+	}
+}
 
 @media screen and (max-width:960px){
 	.deux{
 		display: flex;
 		flex-direction: column;
 	}
+
 	.deuxParDeux{
 		display: flex;
 		flex-direction: row;
@@ -229,7 +335,7 @@ li{
 	}
 	.deuxUn{
 		width: 50%;
-		background-color: red;
+		background-color: #3B414F;
 	}
 	.un{
 		visibility: hidden;
@@ -249,7 +355,7 @@ li{
 		width: 100%;
 	}
 	.deuxUn{
-	background-color: yellow;
+	background-color: #3B414F;
 	width:100%;
 }
 	.un{
