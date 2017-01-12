@@ -7,10 +7,10 @@ body{
 #tout{
 	display: flex;
 	flex-direction: column;
-	background-color: #E9EDFE;
+	background-color: #E9EDF2;
 }
 html{
-	background-color: #E9EDFE;
+	background-color: #E9EDF2;
 }
 h3{
 	font-size:1.25em;
@@ -29,9 +29,10 @@ h3{
 	display: flex;
 	flex-direction: row;
 	padding-top: 10px;
-	background-color: #E9EDFE;
+	background-color: #E9EDF2;
 	margin-top: -10px;
 	margin-left: -8px;
+	width: 100%;
 }
 .deux{
 	display: flex;
@@ -100,19 +101,20 @@ h3{
 		position: absolute;
 		padding-left: 65%;
 		position: fixed;
-		background-color: #E9EDFE;
+		background-color: #E9EDF2;
 		padding-top: 20px;
 		padding-bottom: 20px; 
 		z-index: 2;
 		margin-top: -10px;
+		width: 100%;
 }
 .trois{	
-	background-color: #E9EDFE;
+	background-color: #E9EDF2;
 	font-size: 22px;
 	text-align: center;
 }
 .quatre{
-	background-color: #E9EDFE;
+	background-color: #E9EDF2;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -172,7 +174,7 @@ h3{
 	margin-left: 40px;
 }
 .six{
-	background-color: #E9EDFE;
+	background-color: #E9EDF2;
 	margin-top: 5%;
 }
 #image{
@@ -187,7 +189,7 @@ h3{
 }
 
 .taptap{
-	background-color: #E9EDFE;
+	background-color: #E9EDF2;
 	width:450px;
 	height:auto;
 	margin-left:30%;
